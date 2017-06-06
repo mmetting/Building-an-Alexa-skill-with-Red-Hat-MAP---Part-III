@@ -185,7 +185,7 @@ module.exports = alexaRoute;
 
 Essentially what we are doing, is creating the same handlers (like the ones on Lambda), but within our own web service `/alexa` and let the Alexa Skill SDK handle the HTTP-POST requests.
 
-The final step on exposing our newly created web service, is deploying to the server side:
+The final step on exposing our newly created web service is deploying to the server side:
 
 ![Deploy to server](./pictures/alexa_article_part_3_deploy.png "Deploy to server")
 
@@ -221,7 +221,7 @@ Test your endpoint by issuing an HTTP-POST with the following Body:
 }
 ```
 
-The response should look like:
+The response should look like the following snippet:
 ```
 {
   "version": "1.0",
